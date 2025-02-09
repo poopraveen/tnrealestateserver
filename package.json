@@ -1,8 +1,9 @@
 {
   "type": "module",
   "scripts": {
-    "start": "node dist/server.js",
-    "build": "tsc"
+    "build": "tsc",
+    "start": "node dist/server.js"
+    
   },
   "dependencies": {
     "cors": "^2.8.5",
