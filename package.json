@@ -1,9 +1,9 @@
 {
   "type": "module",
   "scripts": {
+    "postinstall": "chmod -R 755 node_modules/.bin",
     "build": "tsc",
     "start": "node dist/server.js"
-    
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -16,5 +16,8 @@
     "@types/body-parser": "^1.19.5",
     "@types/cors": "^2.8.17",
     "@types/express": "^5.0.0"
+  },
+  "engines": {
+    "node": "16.x"
   }
 }
