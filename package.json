@@ -2,8 +2,8 @@
   "type": "module",
   "scripts": {
     "postinstall": "chmod -R 755 node_modules/.bin",
-    "build": "tsc",
-    "start": "node dist/server.js"
+    "build": "npm install",
+    "start": "node server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",

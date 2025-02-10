@@ -1,4 +1,5 @@
-import mongoose, { Schema, Document } from 'mongoose';
+import mongoose from 'mongoose';
+import { Schema } from 'mongoose';
 
 // Define the schema for the real estate form
 const personalDetailsSchema = new Schema({
